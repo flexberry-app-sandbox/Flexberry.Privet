@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Абв",
+  "name": "IISPrivetАбвE",
+  "className": "АбвE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-privet-абв",
+      "modelProjection": "АбвE"
+    }
+  ]
+}

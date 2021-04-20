@@ -1,0 +1,22 @@
+﻿{
+  "applicationCaption": "Privet",
+  "applicationTitle": "Privet",
+  "items": [
+    {
+      "link": null,
+      "menuName": "privet",
+      "caption": "Privet",
+      "title": "Privet",
+      "children": [
+        {
+          "link": "i-i-s-privet-абв-l",
+          "menuName": null,
+          "caption": "Абв",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

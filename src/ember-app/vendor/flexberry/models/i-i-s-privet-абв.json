@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISPrivetАбв",
+  "modelName": "i-i-s-privet-абв",
+  "className": "Абв",
+  "nameSpace": "IIS.Privet",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "гд",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "АбвE",
+      "modelName": "i-i-s-privet-абв",
+      "attrs": [
+        {
+          "name": "гд",
+          "caption": "Гд",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "АбвL",
+      "modelName": "i-i-s-privet-абв",
+      "attrs": [
+        {
+          "name": "гд",
+          "caption": "Гд",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

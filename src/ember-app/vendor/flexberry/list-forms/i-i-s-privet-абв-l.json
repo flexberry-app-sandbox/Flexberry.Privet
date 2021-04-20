@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-privet-абв-e",
+  "editForm": "i-i-s-privet-абв-e",
+  "external": false,
+  "caption": "Абв",
+  "name": "IISPrivetАбвL",
+  "className": "АбвL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-privet-абв",
+      "modelProjection": "АбвL"
+    }
+  ]
+}
