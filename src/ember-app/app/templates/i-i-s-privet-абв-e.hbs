@@ -34,4 +34,14 @@
     }}
     {{flexberry-validationmessage error=(v-get validationObject "гд" "message")}}
   </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.хз
+      class=(if (v-get validationObject "хз" "isInvalid") "error")
+      label=(t "forms.i-i-s-privet-абв-e.хз-caption")
+      data-test-i-i-s-privet-абв-e-хз=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationObject "хз" "message")}}
+  </div>
 </form>

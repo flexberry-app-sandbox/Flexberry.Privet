@@ -29,13 +29,17 @@ namespace IIS.Privet
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("АбвE", new string[] {
-            "Гд as \'Гд\'"})]
+            "Гд as \'Гд\'",
+            "Хз"})]
     [View("АбвL", new string[] {
-            "Гд as \'Гд\'"})]
+            "Гд as \'Гд\'",
+            "Хз"})]
     public class Абв : ICSSoft.STORMNET.DataObject
     {
         
         private string fГд;
+        
+        private int fХз;
         
         //  *** Start programmer edit section *** (Абв CustomMembers)
 
@@ -71,6 +75,37 @@ namespace IIS.Privet
                 //  *** Start programmer edit section *** (Абв.Гд Set end)
 
                 //  *** End programmer edit section *** (Абв.Гд Set end)
+            }
+        }
+        
+        /// <summary>
+        /// Хз.
+        /// </summary>
+        //  *** Start programmer edit section *** (Абв.Хз CustomAttributes)
+
+        //  *** End programmer edit section *** (Абв.Хз CustomAttributes)
+        public virtual int Хз
+        {
+            get
+            {
+                //  *** Start programmer edit section *** (Абв.Хз Get start)
+
+                //  *** End programmer edit section *** (Абв.Хз Get start)
+                int result = this.fХз;
+                //  *** Start programmer edit section *** (Абв.Хз Get end)
+
+                //  *** End programmer edit section *** (Абв.Хз Get end)
+                return result;
+            }
+            set
+            {
+                //  *** Start programmer edit section *** (Абв.Хз Set start)
+
+                //  *** End programmer edit section *** (Абв.Хз Set start)
+                this.fХз = value;
+                //  *** Start programmer edit section *** (Абв.Хз Set end)
+
+                //  *** End programmer edit section *** (Абв.Хз Set end)
             }
         }
         

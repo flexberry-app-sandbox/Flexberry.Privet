@@ -9,6 +9,8 @@ CREATE TABLE "Абв"
 
 	"Гд" NVARCHAR2(255) NULL,
 
+	"Хз" NUMBER(10) NULL,
+
 	 PRIMARY KEY ("primaryKey")
 ) ;
 

@@ -1,4 +1,5 @@
 export default {
   caption: 'Абв',
-  'гд-caption': 'Гд'
+  'гд-caption': 'Гд',
+  'хз-caption': ''
 };

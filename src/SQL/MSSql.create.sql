@@ -8,6 +8,8 @@ CREATE TABLE [Абв] (
 
 	 [Гд] VARCHAR(255)  NULL,
 
+	 [Хз] INT  NULL,
+
 	 PRIMARY KEY ([primaryKey]))
 
 

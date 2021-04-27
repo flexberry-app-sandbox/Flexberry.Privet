@@ -1,4 +1,5 @@
 export default {
   caption: 'IISPrivetАбвE',
-  'гд-caption': 'гд'
+  'гд-caption': 'гд',
+  'хз-caption': 'хз'
 };
